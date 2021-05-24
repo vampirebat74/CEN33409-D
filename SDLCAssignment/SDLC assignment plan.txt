@@ -1,0 +1,5 @@
+The program will start by directly reading the provided HTML file into a buffered reader.
+By separating the buffer through arrays, only the sections under <p> class "center", "ph2" and "poem" will be read, ignoring the HTML code.
+
+The text inside the BufferedReader will then be sorted by word, of which the means will be calculated
+and sorted in order of top 20.
